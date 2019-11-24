@@ -348,8 +348,25 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  background-color: #E3E3E3;
+  font-size: 16px;
+  line-height: 1.7;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page__container {
+  width: calc(100% - 240px);
+  top: 50px;
+  left: 240px;
+  padding: 0 20px 20px 20px;
+  position: absolute;
+}
+
 section.sidebar {
-  width: 250px;
+  width: 240px;
   position: fixed;
   height: 100vh;
   background-color: #171717;
@@ -436,5 +453,41 @@ i.fa-bars:hover {
 .navigation__manager {
   color: #979797;
   margin-left: 15px;
+}
+
+.navigation__manager a {
+  text-decoration: none;
+}
+
+.top__menu--wrapper {
+  position: fixed;
+  width: calc(100% - 240px);
+  height: 50px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+.top__menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  width: auto;
+}
+
+.top__menu h3, .top__menu p {
+  margin: 0 10px;
+}
+
+.top__menu-icon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+  border-left: 1px solid #E3E3E3;
+  padding: 10px 20px 0 20px;
 }
 /*# sourceMappingURL=style.css.map */

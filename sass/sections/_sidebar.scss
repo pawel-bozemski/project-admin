@@ -1,5 +1,5 @@
 section.sidebar {
-    width: 250px;
+    width: 240px;
     position: fixed;
     height: 100vh;
     background-color: $color-dark;
@@ -79,4 +79,8 @@ i.fa-bars:hover {
 .navigation__manager {
     color: $color-navbar-items;
     margin-left: 15px;
+}
+
+.navigation__manager a {
+    text-decoration: none;
 }
