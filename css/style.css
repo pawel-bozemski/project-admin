@@ -363,6 +363,7 @@ body {
   left: 240px;
   padding: 0 20px 20px 20px;
   position: absolute;
+  z-index: -1;
 }
 
 section.sidebar {
@@ -508,6 +509,116 @@ i.fa-bars:hover {
   }
   .navigation__wrapper-mobile.active {
     display: block;
+    position: fixed;
+    height: 100%;
+    background-color: #171717;
+    z-index: 1;
   }
+  section.page__container {
+    width: 100%;
+    left: 0;
+    margin-top: 25px;
+  }
+  .page-dates {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .page-dates .reload-btn {
+    margin-top: 5px;
+  }
+  .page-chart tr {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+.main__page-container {
+  background-color: #FFFFFF;
+}
+
+.page-header {
+  border-bottom: solid 2px #E3E3E3;
+}
+
+.page-header h2.page-title {
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #979797;
+  font-size: 23px;
+  padding: 12px;
+}
+
+.page-dates {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 35px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.page-dates.table {
+  height: 40px;
+  border: 1px solid #E3E3E3;
+  padding: 5px;
+  border-radius: 3px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.page-dates.table tr .date {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-right: 1px solid #E3E3E3;
+}
+
+.page-dates.table tr .icon {
+  color: #E3E3E3;
+}
+
+.reload-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #E3E3E3;
+  background-color: #F58220;
+}
+
+.reload-btn:hover {
+  color: #171717;
+  background-color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.page-chart table {
+  border-spacing: 25px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.page-chart table tr td {
+  position: relative;
+  padding: 0;
+  border-bottom: 3px solid #E3E3E3;
+  width: auto;
+}
+
+.page-chart table tr td h3, .page-chart table tr td p {
+  display: inline;
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #979797;
+}
+
+.page-chart table tr td p {
+  position: absolute;
+  right: 0;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
