@@ -490,4 +490,24 @@ i.fa-bars:hover {
   border-left: 1px solid #E3E3E3;
   padding: 10px 20px 0 20px;
 }
+
+@media (max-width: 750px) {
+  .top__menu--wrapper {
+    display: none;
+  }
+  section.sidebar {
+    width: 100%;
+    height: auto;
+  }
+  .navigation-title-wrapper {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .navigation__wrapper-mobile {
+    display: none;
+  }
+  .navigation__wrapper-mobile.active {
+    display: block;
+  }
+}
 /*# sourceMappingURL=style.css.map */

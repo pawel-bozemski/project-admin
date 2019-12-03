@@ -1,0 +1,22 @@
+@media (max-width: 750px) {
+
+    .top__menu--wrapper {
+        display: none;
+    }
+
+    section.sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .navigation-title-wrapper {
+        justify-content: space-around
+    }
+
+    .navigation__wrapper-mobile {
+        display: none;
+    }
+    .navigation__wrapper-mobile.active {
+        display: block;
+    }
+}
