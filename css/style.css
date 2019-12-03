@@ -513,6 +513,10 @@ i.fa-bars:hover {
     height: 100%;
     background-color: #171717;
     z-index: 1;
+    line-height: 0;
+  }
+  .navigation__wrapper-mobile.active ul {
+    margin-bottom: 40px;
   }
   section.page__container {
     width: 100%;
