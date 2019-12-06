@@ -14,8 +14,7 @@
 }
 
 .page-dates {
-  display: flex;
-  justify-content: center;
+  @include flex-center;
   padding: 35px;
   border-bottom: 1px solid $page-background;
 }
@@ -43,19 +42,12 @@
 }
 
 .reload-btn {
+  @include orange-button;
   width: 40px;
-  height: 40px;
-  border: 1px solid;
-  border-radius: 5px;
-  margin-left: 10px;
-  color: $page-background;
-  background-color: $button-color;
 }
 
 .reload-btn:hover {
-  color: $color-dark;
-  background-color: $color-light;
-  transition: 0.3s;
+  @include orange-button-hover;
 }
 
 
