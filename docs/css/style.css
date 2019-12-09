@@ -1,6 +1,7 @@
 /* Colors */
 /* Font sizes */
 /* Fonts */
+/* stylelint-disable */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document ========================================================================== */
 /** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
@@ -160,6 +161,7 @@ i.fa-bars:hover { color: orange; }
 
 .top__menu-icon { display: -ms-flexbox; display: flex; -ms-flex-align: baseline; align-items: baseline; border-left: 1px solid #E3E3E3; padding: 10px 20px 0 20px; }
 
+/* stylelint-disable */
 @media (max-width: 750px) { .top__menu--wrapper { display: none; }
   section.sidebar { width: 100%; height: auto; }
   .navigation-title-wrapper { -ms-flex-pack: distribute; justify-content: space-around; }
